@@ -1,0 +1,99 @@
+ /* styles.css - Custom styles for your portfolio */
+
+/* 1. Global Styles: Set a consistent theme for the whole site */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+    line-height: 1.6; /* Improved readability */
+    color: #333; /* Dark gray text for better contrast */
+    background-color: #f8f9fa; /* Light background, similar to Bootstrap's default */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Header and Navigation Styles: For the navbar on all pages */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #d4ff00; /* Custom green color for the navbar */
+}
+
+.navbar a {
+    color: #fff; /* White text for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+    color: #ffd700; /* Gold color on hover for a nice effect */
+}
+
+/* 3. Styles for Projects Page: Target the cards */
+.card {
+    border: none; /* Remove default border for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: box-shadow 0.3s ease; /* Hover animation */
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.card-title {
+    color: #ddff00 /* Blue color for card titles to match the theme */
+}
+
+.list-group-item {
+    background-color: #e9ecef; /* Light gray background for lists in cards */
+}
+
+/* 4. Styles for Contacts Page: Enhance the form */
+form label {
+    font-weight: bold; /* Bold labels for clarity */
+}
+
+.form-control {
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ced4da; /* Light border */
+}
+
+.form-control:focus {
+    border-color: #ddff00; /* Blue border on focus for better UX */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Subtle glow */
+}
+
+.btn-primary {
+    background-color: #ddff00; /* Ensure it matches your theme */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ddff00; /* Darker blue on hover */
+}
+
+/* 5. Responsive Styles: Add custom media queries for mobile adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px; /* Reduce padding on smaller screens */
+    }
+    
+    .card {
+        margin-bottom: 20px; /* Add space between cards on mobile */
+    }
+    
+    form {
+        width: 100%; /* Make forms full-width on mobile */
+    }
+}
+
+/* 6. Additional Custom Styles: For any other elements, like buttons or links */
+a.btn {
+    margin: 5px; /* Spacing for buttons, e.g., social links */
+}
+
+footer {
+    background-color: #f1f1f1; /* If you add a footer, style it lightly */
+    padding: 10px;
+    text-align: center;
+}
