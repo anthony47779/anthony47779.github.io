@@ -1,66 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio </title>
-    <link rel="stylesheet" href="styles.css">  <!-- Link to your custom file -->
-    <link rel="stylesheet" href="styles.css">  <!-- Link to the custom CSS file -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
 </head>
 <body>
-    <header class="bg-primary text-white text-center p-3">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="left">
-            <a class="navbar-brand" href="#">Ruzira Anthony</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="right">
-            <a href="http://github.com" target="blank" rel="noopnener noreferrer">
-            <i class="fa-brands fa-github"></i>
-            <span>Github</span>
-            </a>
-             <a href="http://linkedin" target="blank" rel="noopnener noreferrer">
-           <i class="fa-brands fa-linkedin"></i>
-            <span>linkedin</span>
-            </a>
-            <a href="mailto:ruziraanthony@gmail.com" target="blank" rel="noopnener noreferrer">
-           <i class="fa-solid fa-envelope"></i>
-            <span>email</span>
-            </a>
-        </div>
-    </nav>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Ruzira Anthony</a>
+    </div>
 
-</header>
-    <main class="container mt-5">  <!-- Main content with Bootstrap container for responsiveness -->
-    <section>
-    <h1 class="text-center mb-4">WHO IS ANTHONY?</h1>
-    <p>My name is Ruzira Anthony  , I am a student of Uganda Christian University studying Bachelor of Science in Information Technology</p>   
-    <p>I am 21 years old who feels debted by time.</p> 
-    <p>I am a Christian and God loves me am his favorite creation 😊</p> 
-    </section>
-        <section>
-        <h2>HOBBIES</h2>
-    <p>I don't watch movies alot my favorite is the one l see people acting to socities' beliefs and expectation, this i love.</p>
-     <p> I love experiencing and doing art </p>
-    </section>
-        <section>
-        <h2>Expectations</h2>
-        <p>To learn , improve my IT skills through practice and be of great importance to the farm </p>
-        </section>
-   </main>
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:john@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
 
-    <!--Bootstrap js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>WHO IS ANTHONY?</h2>
+        <p>My name is Ruzira Anthony , I am a student of Uganda Christian University studying Bachelor of Science in Information Technology
+
+I am 21 years old who feels debted by time.
+
+I am a Christian and God loves me am his favorite creation 😊</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#HOBBIES">
+            <i class="fa-solid fa-pen"></i>
+            <span>HOBBIES</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="Timeline 1_01_00_00_04.jpg" alt="headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        "I have a good understanding of HTML, CSS, JavaScript, Node.js, and React.js. I am passionate about web development and always eager to learn new technologies and improve my skills."
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <i class="fa-brands fa-html5" style="color: rgb(116, 192, 252);"></i>
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <i class="fa-brands fa-css3-alt" style="color: rgb(116, 192, 252);"></i>
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <i class="fa-brands fa-js" style="color: rgb(116, 192, 252);"></i>
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <i class="fa-brands fa-node-js" style="color: rgb(116, 192, 252);"></i>
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <i class="fa-brands fa-react" style="color: rgb(116, 192, 252);"></i>
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: HOBBIES -->
+    <section id="HOBBIES" class="testimony-section">
+      <h2>HOBBIES</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="art.jpeg">
+        
+        </div>
+
+        <div class="text">
+          "I don't watch movies alot my favorite is the one l see people acting to socities' beliefs and expectation, this i love.
+
+I love experiencing and doing art."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+            "If you have any questions or would like to get in touch, please feel free to contact me using the form below. I look forward to hearing from you!"
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
