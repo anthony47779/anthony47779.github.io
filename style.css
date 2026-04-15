@@ -17,6 +17,10 @@ header {
 }
 
 .navbar {
+ display:flex;
+ justify-content:space-between;
+ padding: 0 50px;
+ height:80px;
     background-color: #d4ff00; /* Custom green color for the navbar */
 }
 
