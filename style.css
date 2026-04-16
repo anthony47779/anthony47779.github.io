@@ -26,7 +26,18 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
-
+.blue-button {
+    display: block;
+    width: fit-content;
+    margin: 100px auto 20px auto; /* pushes it down */
+    padding: 12px 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
 /* NAVBAR */
 nav {
   display: flex;
