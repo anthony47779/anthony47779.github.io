@@ -26,7 +26,16 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
-
+.blue-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
 }
 /* NAVBAR */
 nav {
@@ -330,4 +339,3 @@ nav .right a span {
     padding: 0 20px;
   }
 }
-
