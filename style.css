@@ -13,7 +13,18 @@
 html {
   scroll-behavior: smooth;
 }
-
+.blue-button {
+    display: block;
+    width: fit-content;
+    margin: 100px auto 20px auto; /* pushes it down */
+    padding: 12px 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
@@ -26,17 +37,7 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
-.blue-button {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 12px 25px;
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-}
-}
+
 /* NAVBAR */
 nav {
   display: flex;
@@ -153,7 +154,6 @@ nav .right a span {
   border-radius: 5px;
 }
 
-}
 .skills-section .cells .cell img {
   width: 30px;
   height: 30px;
